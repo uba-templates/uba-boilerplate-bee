@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { MyComponent } from '../../components';
 import { Header } from '../../components';
-import { Con } from 'tinper-bee';
+import { Menus } from '../../components';
+import { Con,Row,Col } from 'tinper-bee';
 
 import './index.css';
 import 'tinper-bee/assets/tinper-bee.css';
@@ -13,14 +14,21 @@ class App extends Component {
 
   render() {
     return (
-      <Con>
+      <div>
         <Header />
-        <MyComponent />
-        <p>
-          欢迎在github上一起维护这个脚手架项目<br />
-          https://github.com/GuoYongfeng
-        </p>
-      </Con>
+          <Row>
+              <Col md={3} >
+                  <Menus />
+              </Col>
+              <Col md={9} >
+                  <MyComponent />
+                  <p>
+                    欢迎在github上一起维护这个脚手架项目<br />
+                    https://github.com/GuoYongfeng
+                  </p>
+              </Col>
+          </Row>
+      </div>
     );
   }
 }
