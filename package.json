@@ -29,6 +29,8 @@
   },
   "homepage": "https://github.com/GuoYongfeng/webpack-dev-boilerplate#readme",
   "dependencies": {
+    "bee-form-group": "^1.0.6",
+    "bee-input-group": "^0.1.7",
     "history": "^4.4.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",

@@ -27,7 +27,7 @@ class Header extends Component {
 				<Navbar inverse expanded={this.state.expanded} onToggle={this.onToggle.bind(this)}>
 				    <NavHeader>
 					    <Brand>
-					        	<a href="#">React-Bootstrap</a>
+					        	<a href="#">tinper-bee</a>
 					    </Brand>
 					    <Toggle />
 				    </NavHeader>
