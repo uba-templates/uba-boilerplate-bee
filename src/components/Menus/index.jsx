@@ -3,7 +3,6 @@ import { Navbar } from 'tinper-bee';
 
 import './index.css';
 
-
 const Menu = Navbar.Menu;
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
