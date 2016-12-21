@@ -22,10 +22,6 @@ class App extends Component {
               </Col>
               <Col md={9} >
                   <MyComponent />
-                  <p>
-                    欢迎在github上一起维护这个脚手架项目<br />
-                    https://github.com/GuoYongfeng
-                  </p>
               </Col>
           </Row>
       </div>
