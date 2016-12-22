@@ -1,8 +1,8 @@
-# 基于React + Webpack + Babel的项目脚手架
+# bee组件库脚手架
 
-> 这个脚手架工程模板用于快速启动基于 React + Webpack 为技术栈的前端项目
+基于webpack的脚手架，内置tinper-bee组件库，并配置了一些基础页面。
 
-## Features 功能特性
+## 功能特性
 
 - 可以解析 JSX 语法
 - 可以解析 ES6 语法新特性
@@ -25,8 +25,9 @@
 ## 1. start
 
 ```
-$ git clone https://github.com/GuoYongfeng/webpack-dev-boilerplate
-$ cd webpack-dev-boilerplate
+$ npm install -g uba
+$ uba init bee-boilerplate your-projectname
+$ cd your-projectname
 $ npm install
 ```
 ## 2. dev
