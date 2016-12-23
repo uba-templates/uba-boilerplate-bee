@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { MyComponent } from '../../components';
-import { Header } from '../../components';
+import { MyHeader } from '../../components';
 import { Menus } from '../../components';
 import { Con,Row,Col } from 'tinper-bee';
 
@@ -15,11 +15,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <MyHeader />
           <Row>
-              <Col md={3} >
-                  <Menus />
-              </Col>
               <Col md={9} >
                   <MyComponent />
               </Col>
